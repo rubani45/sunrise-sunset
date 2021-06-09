@@ -34,7 +34,12 @@ function draw(){
     textSize(35);
     fill("black");
     text("Time:"+hour,width-300,50);
-
+    //console.log(mouseX,mouseY);
+   if(hour < 12){
+      text("am",1035,50);
+   } else{
+    text("pm",1035,50); 
+   }
 
 }
 
