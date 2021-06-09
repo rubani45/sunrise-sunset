@@ -37,7 +37,7 @@ function draw(){
     //console.log(mouseX,mouseY);
    if(hour < 12){
       text("am",1035,50);
-   } else{
+   } else if(hour<00){
     text("pm",1035,50); 
    }
 
